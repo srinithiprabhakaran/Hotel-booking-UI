@@ -2,13 +2,11 @@
   "name": "hotel-booking-ui",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://srinithiprabhakaran.github.io/Hotel-booking-UI",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.3",
