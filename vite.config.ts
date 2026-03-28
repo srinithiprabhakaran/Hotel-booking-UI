@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/Hotel-booking-UI/',   // ⭐ ADD THIS LINE
+  base: '/Hotel-booking-UI/',
 
   plugins: [
     react(),

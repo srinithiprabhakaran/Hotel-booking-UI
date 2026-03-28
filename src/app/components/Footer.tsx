@@ -1,5 +1,5 @@
-import { Hotel, Facebook, Twitter, Instagram, Mail } from "lucide-react";
-import { Link } from "react-router";
+import { Hotel, Share2, Send, Heart, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
@@ -42,13 +42,13 @@ export function Footer() {
             <h3 className="font-semibold text-white mb-4">Connect</h3>
             <div className="flex gap-4 mb-4">
               <button className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
-                <Facebook className="w-5 h-5" />
+                <Share2 className="w-5 h-5" />
               </button>
               <button className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
-                <Twitter className="w-5 h-5" />
+                <Send className="w-5 h-5" />
               </button>
               <button className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
-                <Instagram className="w-5 h-5" />
+                <Heart className="w-5 h-5" />
               </button>
               <button className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
                 <Mail className="w-5 h-5" />
